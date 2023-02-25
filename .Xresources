@@ -1,0 +1,10 @@
+xterm*visualBell: true
+xterm*background: Black
+xterm*foreground: Orange
+xterm_color*background: Black
+xterm_color*foreground: Orange
+XTerm.vt100.faceName: IBM Plex Mono:size=10:antialias=true
+
+XTerm*vt100.translations: #override \
+    Shift Ctrl <Key> C: copy-selection(CLIPBOARD) \n\
+    Shift Ctrl <Key> V: insert-selection(CLIPBOARD)
