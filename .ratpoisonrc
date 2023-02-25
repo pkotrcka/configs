@@ -4,6 +4,9 @@ exec picom -CGb --vsync --backend glx
 exec numlockx
 
 exec xrdb ~/Xresources
+exec xsetroot -grey
+definekey top M-Right next
+definekey top M-Left prev
 
 bind p exec dmenu_run
 
