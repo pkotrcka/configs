@@ -3,6 +3,8 @@ escape Super_L
 exec picom -CGb --vsync --backend glx
 exec numlockx
 
+exec xrdb ~/Xresources
+
 bind p exec dmenu_run
 
 bind o exec setxkbmap sk
