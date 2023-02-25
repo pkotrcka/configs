@@ -1,0 +1,9 @@
+escape Super_L
+
+exec picom -CGb --vsync --backend glx
+exec numlockx
+
+bind p exec dmenu_run
+
+bind o exec setxkbmap sk
+bind O exec setxkbmap us
